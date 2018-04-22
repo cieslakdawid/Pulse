@@ -89,7 +89,6 @@ This repository comes with very handy tool for tunning your controller.
 You should follow steps described in `Usage` section, just skip providing `configuration` when `Pulse` is being created. It will be initialized with defeault values for now.
 
 ```swift
-
     override func viewDidLoad() {
         super.viewDidLoad() 
         
@@ -101,7 +100,6 @@ You should follow steps described in `Usage` section, just skip providing `confi
             guard let `self` = self else { return }
             self.currentValue = output
         })
-
     }
 ```
 
