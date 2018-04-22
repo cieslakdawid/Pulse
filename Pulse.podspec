@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
     #   * Write the description between the DESC delimiters below.
     #   * Finally, don't worry about the indent, CocoaPods strips it!
     
-    s.description      = <<-DESC
-    TODO: Add long description of the pod here.
-    DESC
+    s.description      = "Pulse is a powerful tool for creating smooth, value-based animations when your data set is not continuous or it needs additional interpolation. Especially useful when working with values provided in real-time like - gyroscope, force touch or gestures. It's based on the concept of PID Controller - control loop feedback mechanism."
     
     s.homepage         = 'https://github.com/cieslakdawid/Pulse'
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
