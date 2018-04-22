@@ -1,0 +1,27 @@
+PODS:
+  - Nimble (7.0.3)
+  - Pulse (0.1.0)
+  - Quick (1.2.0)
+
+DEPENDENCIES:
+  - Nimble (~> 7.0.2)
+  - Pulse (from `../`)
+  - Quick (~> 1.2.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  Pulse:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
+  Pulse: 7d20d803b78df48ee807881285ecb774aa88dcfd
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+
+PODFILE CHECKSUM: 18e9e03c20addf372085b40d9cb171899c1c4085
+
+COCOAPODS: 1.5.0

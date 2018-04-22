@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'Pulse/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'Pulse' => ['Pulse/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'Pulse' => ['Pulse/Assets/*.xcassets']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
