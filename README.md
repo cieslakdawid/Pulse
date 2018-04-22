@@ -88,7 +88,7 @@ There is also one additional factor `minimumStep` that tells how close the `meas
 This repository comes with very handy tool for tunning your controller. 
 You should follow steps described in `Usage` section, just skip providing `configuration` when `Pulse` is being created. It will be initialized with defeault values for now.
 
-    ```swift
+```swift
 
     override func viewDidLoad() {
         super.viewDidLoad() 
@@ -103,7 +103,7 @@ You should follow steps described in `Usage` section, just skip providing `confi
         })
 
     }
-    ```
+```
 
 When everything is ready, find a place when you present `tunning view` on the screen. Maybe shake event?
 Just call `showTunningView` on `Pulse` object, providing information about **expected** range of values that might be set as `setPoint`.
