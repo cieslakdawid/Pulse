@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-
 		3F38C91A208D1B3000DEE412 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3F38C919208D1B3000DEE412 /* LICENSE */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -31,7 +30,6 @@
 
 /* Begin PBXFileReference section */
 		14172BF6453958FC245692E4 /* Pods-Pulse_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pulse_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pulse_Tests/Pods-Pulse_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-
 		3F38C919208D1B3000DEE412 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4D50283CB8A2D77F452690FE /* Pods-Pulse_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pulse_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pulse_Example/Pods-Pulse_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Pulse_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pulse_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,8 +42,7 @@
 		607FACE51AFB9204008FA782 /* Pulse_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pulse_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6B1C58D22A860DB691966850 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		70C4C8AF00D16E20B15F0052 /* Pulse.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Pulse.podspec; path = ../Pulse.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		70C4C8AF00D16E20B15F0052 /* PulseController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PulseController.podspec; path = ../PulseController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71A0E4D645C99FF4C9F33F36 /* Pods_Pulse_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pulse_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A40372808996377DDE62F8B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A4DF0608AC3F4BD0EE97DC5A /* Pods-Pulse_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pulse_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pulse_Tests/Pods-Pulse_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -136,10 +133,9 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				70C4C8AF00D16E20B15F0052 /* Pulse.podspec */,
+				70C4C8AF00D16E20B15F0052 /* PulseController.podspec */,
 				A40372808996377DDE62F8B0 /* README.md */,
 				3F38C919208D1B3000DEE412 /* LICENSE */,
-
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -253,7 +249,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
 				3F38C91A208D1B3000DEE412 /* LICENSE in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,

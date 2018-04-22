@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-    s.name             = 'Pulse'
+    s.name             = 'PulseController'
     s.version          = '0.1.3'
     s.summary          = 'Pulse is a powerful tool for creating smooth, value-based animations from your real-time dataset. It\'s based on concept of PID Controller'
     
