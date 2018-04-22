@@ -1,6 +1,6 @@
 
 <h3 align="center">
-  <img src="./Assets/logo.png" alt="PID controller Logo" width="250">
+  <img src="https://github.com/cieslakdawid/Pulse/blob/master/assets/logo.png?raw=true" alt="PID controller Logo" width="250">
   </a>
 </h3>
 
@@ -9,7 +9,7 @@ Pulse is a powerful tool for creating smooth, value-based animations when your d
 It's based on the concept of `PID Controller` - control loop feedback mechanism.
 
  Example **animation** showing how `force touch` read can be transformed into a smooth real-time animation.
-![Alt Text](./Assets/example_transformation.gif)
+![Alt Text](https://github.com/cieslakdawid/Pulse/blob/master/assets/example_transformation.gif?raw=true)
 
 By providing a suitable configuration, you can control how fast target value is reached or how significant overshoot is.
 
@@ -124,7 +124,7 @@ If repository you'll find fully implemented solution!
 
 This repository is based on the concept of `PID controller` - simple and efficient *feedback loop system*, widely used in industrial applications. It constantly calculates the error as the difference between the measured value and desired one, then applies the counter force based on the combination of three factors: **P**(Proportional), **I**(Integral), **D**(Derivative). As the time progresses, error rate goes down to `0`.
 <h3 align="left">
-  <img src="./Assets/pid.png" alt="=PID Controller scheme" width="550">
+  <img src="https://github.com/cieslakdawid/Pulse/blob/master/assets/pid.png?raw=true" alt="=PID Controller scheme" width="550">
   </a>
 </h3>
 
