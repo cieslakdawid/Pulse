@@ -144,7 +144,7 @@ class SingleControlView: UIView {
     /// Displays current gain value with custom formatting
     ///
     /// - Parameter value: Value to be displayed
-    private func displayGainValue(_ value: Float) {
+    func displayGainValue(_ value: Float) {
         
         // Format string with rounded value with 3 digits
         let roundedNSNumber = NSNumber(value: value)

@@ -36,11 +36,11 @@ class ControlsView: UIView {
     }()
     
     // Controls for all configuration factors
-    private let minimumStepView: SingleControlView
-    private let proportionalGainView: SingleControlView
-    private let integralGainView: SingleControlView
-    private let derivativeGainView: SingleControlView
-    private let allControlViews: [SingleControlView]
+    let minimumStepView: SingleControlView
+    let proportionalGainView: SingleControlView
+    let integralGainView: SingleControlView
+    let derivativeGainView: SingleControlView
+    let allControlViews: [SingleControlView]
     
     /// Wraps all controls
     private var containerView: UIView = {

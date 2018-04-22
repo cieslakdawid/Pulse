@@ -46,10 +46,10 @@ class TunningView: UIView {
     private let graphView: LineGraphView
     
     /// Draws current value of Pulse's output value
-    private let outputValueGraphItem: LineGraphItem
+    let outputValueGraphItem: LineGraphItem
     
     /// Draws current value of Pulse's `setPoint` value
-    private let setpointValueGraphItem: LineGraphItem
+    let setpointValueGraphItem: LineGraphItem
     
     // Constraints
     private lazy var containerStackView: UIStackView = {
