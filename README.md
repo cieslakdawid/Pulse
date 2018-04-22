@@ -88,7 +88,7 @@ There is also one additional factor `minimumStep` that tells how close the `meas
 This repository comes with very handy tool for tunning your controller. 
 You should follow steps described in `Usage` section, just skip providing `configuration` when `Pulse` is being created. It will be initialized with defeault values for now.
 
- ```swift
+    ```swift
 
     override func viewDidLoad() {
         super.viewDidLoad() 
@@ -109,7 +109,7 @@ When everything is ready, find a place when you present `tunning view` on the sc
 Just call `showTunningView` on `Pulse` object, providing information about **expected** range of values that might be set as `setPoint`.
 For instance if you use `Pulse` to animate rotation of object, values from `0` to `360` might be a good idea.
 
- ```swift
+```swift
     override func motionBegan(_ motion: UIEventSubtype, with event: UIEvent?) {
         if(motion == .motionShake) {
             pulseController?.showTunningView(minimumValue: 0, maximumValue: 360)
