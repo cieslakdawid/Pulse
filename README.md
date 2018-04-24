@@ -147,7 +147,11 @@ Even though this repository might be helpful mostly for  users, core implemen
 
 # Acknowledgements
 
+Big thanks to my friend for sharing the concept of `PID Controller` and inspiring this work 🎉
+
 # Future
+
+The idea is to create a tool that can transform noisy data, provided in real time into something useful for smooth visual representation. Today solution is fully based on `PID Controller` beacuse that's the best idea for this moment. Although project might shift toward the different concept if it provides an easier way to achieve the same result. The goal is to have very easy interface and minimum extra configuration/tuning needed.
 
 # Licence
 Repository is released under the MIT License.
