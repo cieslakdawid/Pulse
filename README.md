@@ -20,7 +20,7 @@ If you need `only` core implementation (functionality of `PID Controller`) all y
 ### Cocoa Pods
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
-pod 'PulseController', '~> 0.1.3'
+pod 'PulseController', '~> 0.1.4'
 ```
 
 # Usage
