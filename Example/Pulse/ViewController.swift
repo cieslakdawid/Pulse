@@ -20,6 +20,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        emojiLabel.center = CGPoint(x: view.center.x, y: view.center.y + 30)
+        helicpoterLabel.center = CGPoint(x: view.center.x, y: view.center.y - 30)
+        
         let configuration = Pulse.Configuration(minimumValueStep: 0.5, Kp: 0.5, Ki: 0.1, Kd: 0.9)
         positionController = Pulse(configuration: configuration, measureClosure: {  [weak self] () -> CGFloat in
             guard let `self` = self else { return 0 }
@@ -28,7 +31,7 @@ class ViewController: UIViewController {
             return self.emojiLabel.center.x
         }, outputClosure: { [weak self] (output) in
             guard let `self` = self else { return }
-            self.emojiLabel.center = CGPoint(x: output, y: self.view.center.y)
+            self.emojiLabel.center = CGPoint(x: output, y: self.emojiLabel.center.y)
         })
     }
 
