@@ -59,8 +59,6 @@ class TunningViewController: UIViewController {
     
     deinit {
         displayLink.invalidate()
-        print("Deinin")
-        
     }
     override func loadView() {
         view = tunningView
