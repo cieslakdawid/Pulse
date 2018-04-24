@@ -39,7 +39,7 @@ class LineGraphView: UIView {
         layer.addSublayer(gradientLayer)
         
         for item in items {
-            layer.insertSublayer(item, at: 10)
+            layer.insertSublayer(item, at: 1)
         }
         
         backgroundLayer.shadowColor = UIColor.black.cgColor
@@ -67,6 +67,8 @@ class LineGraphView: UIView {
         super.layoutSubviews()
      
         backgroundLayer.frame = bounds
+        
+        // TODO: Move constant values
         gradientLayer.frame = bounds.insetBy(dx: 10, dy: 10)
         
         let boundNoCorners = CGRect(x: 10,y: 10,

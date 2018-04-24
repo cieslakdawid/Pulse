@@ -9,7 +9,7 @@
 import Foundation
 
 
-/// Configuration for
+/// Configuration for tuning
 enum PulseConstants: SingleControlDisplayable {
     
     case minimumValueStep

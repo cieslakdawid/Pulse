@@ -8,18 +8,28 @@
 
 import UIKit
 
+/// All possible states of tuning view visibility
+///
+/// - notVisible: View is not visible at all
+/// - graphOnly: Only graph is visible
+/// - fullyVisible: Both graph and tuning controls are visible
 enum VisibilityState {
     case notVisible
     case graphOnly
     case fullyVisible
 }
 
+/// Wraps all controsl for
 class TunningView: UIView {
   
     struct Configuration {
+        /// Minimum target value that might be set as `setPoint`
         let minimumValue: CGFloat
+        
+        /// Maximum target value that might be set as `setPoint`
         let maximumValue: CGFloat
         
+        /// Initial configuration for `PID` controller
         let initialConfiguration: Pulse.Configuration
     }
     
@@ -30,6 +40,7 @@ class TunningView: UIView {
                                              UIColor(red: 184.0/255.0, green: 109.0/255.0, blue: 215.0/255.0, alpha: 1.0)]
     }
     
+    /// Defines if and how, tuning view is visible on the screen
     var visibilityState: VisibilityState = .notVisible {
         didSet {
             update()
@@ -37,7 +48,11 @@ class TunningView: UIView {
     }
     
     private var didSetConstraints: Bool = false
+    
+    /// Button for closing tuning view
     private let closeButton = UIButton(type: .custom)
+    
+    /// Wraps all sliders to control `PID` configuration
     private let controlsView: ControlsView
     
     private var topConstraint: NSLayoutConstraint? = nil
@@ -127,6 +142,7 @@ class TunningView: UIView {
         return respondingView
     }
     
+    /// Update values drawn on graph
     func updateGraph() {
         graphView.update()
     }
@@ -158,22 +174,23 @@ class TunningView: UIView {
         ])
     }
     
-    // FIXME: Silly name and mess
-    private func heightForState() -> CGFloat {
+    // FIXME: Better explanation of calculations
+    private func heightForVisibilityState() -> CGFloat {
         let margin: CGFloat = 10
-        let padding: CGFloat
-        
+        let newHeight: CGFloat
         if(visibilityState == .graphOnly) {
-            padding = graphView.frame.maxY + margin
+            newHeight = graphView.frame.maxY + margin
         } else if(visibilityState == .notVisible) {
-           padding = 0
+           newHeight = 0
         } else {
-            padding = containerStackView.bounds.height + margin
+
+            newHeight = containerStackView.bounds.height + margin
         }
         
-        return -padding
+        return -newHeight
     }
     
+    /// FIXME: Find better way to interate through enum values
     @objc func buttonPressed() {
         switch visibilityState {
         case .fullyVisible:
@@ -183,11 +200,11 @@ class TunningView: UIView {
         case .notVisible:
             visibilityState = .fullyVisible
         }
-
     }
     
+    /// Updates UI according to current
     private func update() {
-        self.topConstraint?.constant = heightForState()
+        self.topConstraint?.constant = heightForVisibilityState()
         
         UIView.animate(withDuration: 1.0, delay: 0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0.5, options: [], animations: { [weak self] in
             guard let `self` = self else { return }

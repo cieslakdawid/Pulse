@@ -69,7 +69,6 @@ class SingleControlView: UIView {
         self.configuration = configuration
         super.init(frame: .zero)
         
-        
         nameLabel.translatesAutoresizingMaskIntoConstraints = false
         valueSlider.translatesAutoresizingMaskIntoConstraints = false
         valueLabel.translatesAutoresizingMaskIntoConstraints = false
@@ -105,7 +104,7 @@ class SingleControlView: UIView {
             
             valueLabel.centerYAnchor.constraint(equalTo: valueSlider.centerYAnchor),
             valueLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor),
-            ])
+        ])
         
         let valueLabelLeadingConstraint = valueLabel.leadingAnchor.constraint(equalTo: valueSlider.trailingAnchor)
         valueLabelLeadingConstraint.priority = .defaultLow

@@ -8,7 +8,7 @@
 
 import UIKit
 
-/// View with gradient background and drop shadow
+/// View with gradient background
 class GradientView: UIView {
     
     /// Static values for UI components
