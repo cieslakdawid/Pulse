@@ -73,16 +73,7 @@ public class Pulse: NSObject {
     /// Called when the PIDController seems to have reached quiescence.
     /// It is guaranteed that when this closure is called, that the display link is paused until targetValue is set again.
     var quiescenceClosure: (() -> Void)? = nil
-    
-    enum ValueRange {
-        case point
-        case normalized
-        case custom(CGFloat)
-        
-        var stepSize: CGFloat {
-            return 0.0
-        }
-    }
+
     
     required public init(configuration: Configuration, measureClosure: @escaping (() -> CGFloat), outputClosure: @escaping ((_ output: CGFloat) -> Void)) {
         self.configuration = configuration
