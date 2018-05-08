@@ -39,7 +39,7 @@ class LineGraphView: UIView {
         layer.addSublayer(gradientLayer)
         
         for item in items {
-            layer.insertSublayer(item, at: 1)
+            layer.addSublayer(item)
         }
         
         backgroundLayer.shadowColor = UIColor.black.cgColor

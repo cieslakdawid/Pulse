@@ -101,6 +101,7 @@ class LineGraphItem: CALayer {
             
             let currentPoint = CGPoint(x: currentXPosition, y: bounds.height - limitedValue * bounds.height)
             
+           // print("Limited value \(bounds.height - limitedValue * bounds.height)")
             if shapePath.isEmpty {
                 shapePath.move(to: currentPoint)
             } else {
