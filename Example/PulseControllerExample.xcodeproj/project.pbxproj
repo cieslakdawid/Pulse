@@ -30,10 +30,8 @@
 
 /* Begin PBXFileReference section */
 		0255CD7657C7236B26EABE77 /* Pods-PulseControllerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PulseControllerExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-PulseControllerExample/Pods-PulseControllerExample.release.xcconfig"; sourceTree = "<group>"; };
-		14172BF6453958FC245692E4 /* Pods-Pulse_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pulse_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pulse_Tests/Pods-Pulse_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1BA9DF727E2BA34932C16608 /* Pods_PulseControllerExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PulseControllerExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F38C919208D1B3000DEE412 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		4D50283CB8A2D77F452690FE /* Pods-Pulse_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pulse_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pulse_Example/Pods-Pulse_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* PulseControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulseControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,9 +48,7 @@
 		7E3580E877FD0F0A07A4C76B /* Pods-PulseControllerExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PulseControllerExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PulseControllerExampleTests/Pods-PulseControllerExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		887331FA9023A3ABDAEE426C /* Pods-PulseControllerExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PulseControllerExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PulseControllerExampleTests/Pods-PulseControllerExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A40372808996377DDE62F8B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A4DF0608AC3F4BD0EE97DC5A /* Pods-Pulse_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pulse_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pulse_Tests/Pods-Pulse_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A9BFDEFA4746ABBE159F3FF5 /* Pods-PulseControllerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PulseControllerExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PulseControllerExample/Pods-PulseControllerExample.debug.xcconfig"; sourceTree = "<group>"; };
-		E9AC54A1B9669C068AAE6299 /* Pods-Pulse_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pulse_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pulse_Example/Pods-Pulse_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FF5F3F6BE1B738F0EB4D6AE7 /* Pods_Pulse_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pulse_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -149,10 +145,6 @@
 		6A0D5A1B5B8C65341FDE8791 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E9AC54A1B9669C068AAE6299 /* Pods-Pulse_Example.debug.xcconfig */,
-				4D50283CB8A2D77F452690FE /* Pods-Pulse_Example.release.xcconfig */,
-				14172BF6453958FC245692E4 /* Pods-Pulse_Tests.debug.xcconfig */,
-				A4DF0608AC3F4BD0EE97DC5A /* Pods-Pulse_Tests.release.xcconfig */,
 				A9BFDEFA4746ABBE159F3FF5 /* Pods-PulseControllerExample.debug.xcconfig */,
 				0255CD7657C7236B26EABE77 /* Pods-PulseControllerExample.release.xcconfig */,
 				887331FA9023A3ABDAEE426C /* Pods-PulseControllerExampleTests.debug.xcconfig */,
