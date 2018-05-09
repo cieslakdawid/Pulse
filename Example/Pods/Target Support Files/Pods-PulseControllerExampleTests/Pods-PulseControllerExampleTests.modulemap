@@ -1,0 +1,6 @@
+framework module Pods_PulseControllerExampleTests {
+  umbrella header "Pods-PulseControllerExampleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

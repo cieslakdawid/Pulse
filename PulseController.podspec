@@ -29,10 +29,10 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '10.3'
     
     s.swift_version = '4.1'
-    s.source_files = 'Pulse/Classes/**/*'
+    s.source_files = 'PulseController/Classes/**/*'
     
     s.resource_bundles = {
-        'Pulse' => ['Pulse/Assets/*.xcassets']
+        'PulseController' => ['PulseController/Assets/*.xcassets']
     }
     
     # s.public_header_files = 'Pod/Classes/**/*.h'

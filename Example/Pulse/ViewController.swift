@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Pulse
+import PulseController
 
 class ViewController: UIViewController {
 
