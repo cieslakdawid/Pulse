@@ -51,7 +51,7 @@ pod 'PulseController', '~> 0.1.4'
     
         // Init PID Controller
         pulseController = Pulse(configuration: configuration, measureClosure: { [weak self] () -> CGFloat in
-            guard let `self` = self else { return }
+            guard let `self` = self else { return 0 }
 
             // This closure returns information about current value
             return self.currentValue;
