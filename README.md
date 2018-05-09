@@ -1,3 +1,4 @@
+[![codecov](https://codecov.io/gh/cieslakdawid/Pulse/branch/Development/graph/badge.svg)](https://codecov.io/gh/cieslakdawid/Pulse)
 
 <h3 align="center">
   <img src="https://github.com/cieslakdawid/Pulse/blob/master/assets/logo.png?raw=true" alt="PID controller Logo" width="250">
