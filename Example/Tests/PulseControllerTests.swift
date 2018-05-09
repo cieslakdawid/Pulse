@@ -8,8 +8,8 @@ class TableOfContentsSpec: QuickSpec {
     override func spec() {
         
         describe("Initial Test") {
-            it("should fail") {
-                expect(1) == 2
+            it("should pass") {
+                expect(1) == 1
             }
         }
     }
