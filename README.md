@@ -30,7 +30,7 @@ pod 'PulseController', '~> 0.1.4'
 
 1. Import framework (If installed via package manager)
      ```swift
-    import Pulse
+    import PulseController
     ```
 2. Add the variable that corresponds to the current value **and** reference to `Pulse` controller
     ```swift
