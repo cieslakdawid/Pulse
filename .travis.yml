@@ -13,3 +13,5 @@ before_install:
 script:
 - set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/PulseControllerExample.xcworkspace -scheme PulseControllerExample -destination "platform=iOS Simulator,name=iPhone 6,OS=11.3" | xcpretty
 - pod lib lint
+after_success:
+  - bash <(curl -s https://codecov.io/bash) -t 2b83ea1c-506e-43ed-9211-aa334f864fcc
