@@ -24,5 +24,20 @@
     "PulseController": [
       "PulseController/Assets/*.xcassets"
     ]
-  }
+  },
+  "testspecs": [
+    {
+      "name": "Tests",
+      "test_type": "unit",
+      "source_files": "Example/Tests/*.swift",
+      "dependencies": {
+        "Quick": [
+          "~> 1.3.0"
+        ],
+        "Nimble": [
+          "~> 7.1.1"
+        ]
+      }
+    }
+  ]
 }
