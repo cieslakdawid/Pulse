@@ -11,5 +11,5 @@ before_install:
 - pod repo update
 - pod install --project-directory=Example
 script:
-- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/PulseController.xcworkspace -scheme PulseControllerExample -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
+- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/PulseController.xcworkspace -scheme PulseControllerExample -sdk iphonesimulator11.3 ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
