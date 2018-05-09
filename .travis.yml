@@ -11,5 +11,5 @@ before_install:
 - pod repo update
 - pod install --project-directory=Example
 script:
-- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/PulseControllerExample.xcworkspace -scheme PulseControllerExample -destination "platform=iOS Simulator,name=iPhone 6,OS=10.3" | xcpretty
+- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/PulseControllerExample.xcworkspace -scheme PulseControllerExample -destination "platform=iOS Simulator,name=iPhone 6,OS=11.3" | xcpretty
 - pod lib lint
