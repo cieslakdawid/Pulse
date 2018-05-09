@@ -1,5 +1,6 @@
 [![codecov](https://codecov.io/gh/cieslakdawid/Pulse/branch/Development/graph/badge.svg)](https://codecov.io/gh/cieslakdawid/Pulse)
 [![Version](https://img.shields.io/cocoapods/v/PulseController.svg?style=flat)](http://cocoapods.org/pods/PulseController)
+[![License](https://img.shields.io/cocoapods/l/PulseController.svg?style=flat)](http://cocoapods.org/pods/PulseController)
 
 <h3 align="center">
   <img src="https://github.com/cieslakdawid/Pulse/blob/master/assets/logo.png?raw=true" alt="PID controller Logo" width="250">
