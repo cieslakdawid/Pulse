@@ -4,9 +4,9 @@ PODS:
   - Quick (1.3.0)
 
 DEPENDENCIES:
-  - Nimble
+  - Nimble (~> 7.1.1)
   - PulseController (from `../`)
-  - Quick
+  - Quick (~> 1.3.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -19,9 +19,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Nimble: 391f07782af4b37914f9bd7b2ffbb952731b8202
-  PulseController: 35d61897391b7df104201cdaad36d1c4ad5bdff0
+  PulseController: 85aff391feb7657f19886c234dacfa68b645c763
   Quick: 03278013f71aa05fe9ecabc94fbcc6835f1ee76f
 
-PODFILE CHECKSUM: 5581e9e0625d0258451fbe84b80b1156b667e355
+PODFILE CHECKSUM: c36abf78e9fa3d00adcbee4576f697bf46ac11fb
 
 COCOAPODS: 1.5.0
