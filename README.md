@@ -1,4 +1,4 @@
-[![codecov](https://codecov.io/gh/cieslakdawid/Pulse/branch/Development/graph/badge.svg)](https://codecov.io/gh/cieslakdawid/Pulse)
+
 [![Version](https://img.shields.io/cocoapods/v/PulseController.svg?style=flat)](http://cocoapods.org/pods/PulseController)
 [![License](https://img.shields.io/cocoapods/l/PulseController.svg?style=flat)](http://cocoapods.org/pods/PulseController)
 
