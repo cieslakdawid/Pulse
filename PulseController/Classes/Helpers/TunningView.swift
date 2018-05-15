@@ -105,7 +105,7 @@ class TunningView: UIView {
         super.init(frame: .zero)
         
         let podBundle = Bundle(for: TunningView.self)
-        if let url = podBundle.url(forResource: "Pulse", withExtension: "bundle"){   // leave the extension as "bundle"
+        if let url = podBundle.url(forResource: "PulseController", withExtension: "bundle"){   // leave the extension as "bundle"
             let imageBundle = Bundle(url: url)
             let image = UIImage.init(named: "tickIcon", in: imageBundle, compatibleWith: nil)
             closeButton.setImage(image, for: .normal)
